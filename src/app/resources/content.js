@@ -9,7 +9,7 @@ const person = {
   role: "Data Analyst",
   avatar: "/images/avatar.jpg",
   email: "sahajwanilakshay@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -63,7 +63,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Lakshay, a Data Analyst at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -90,9 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Lakshay is a data analyst with a passion for transforming complex data challenges into clear, actionable insights. He combines analytical expertise with a strong sense of design, creating intuitive visualizations and interactive dashboards that enhance decision-making and user experience.
       </>
     ),
   },
@@ -102,8 +100,8 @@ const about = {
     experiences: [
       {
         company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        timeframe: "2024 - Present",
+        role: "Data Analyst",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -147,12 +145,12 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Maharishi Markandeshwar Deemed University",
+        description: <>Masters of Computer Application</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Maharishi Markandeshwar Deemed University",
+        description: <>Masters of Computer Application</>,
       },
     ],
   },
@@ -161,7 +159,7 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Python, Advanced Excel, PowerBi, Advanced Sql",
         description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
