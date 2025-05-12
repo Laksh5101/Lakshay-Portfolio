@@ -99,17 +99,15 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2024 - Present",
+        company: "Cognizant",
+        timeframe: "Jan2024 - Jan2025",
         role: "Data Analyst",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Analyzed and visualized complex datasets using Python, SQL, and Power BI, improving decision-making efficiency by 25%.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Automated data pipelines and reporting processes using GitHub Actions, reducing manual effort by 40%.
           </>,
         ],
         images: [
@@ -160,7 +158,7 @@ const about = {
     skills: [
       {
         title: "Python, Advanced Excel, PowerBi, Advanced Sql",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Skilled in Python, Advanced Excel, Power BI, and SQL for data analysis; experienced with GitHub Actions and project deployment.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
