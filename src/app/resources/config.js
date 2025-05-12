@@ -145,8 +145,4 @@ const mailchimp = {
 
 export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, font };
 
-effects.gradient.display = true;
-effects.gradient.opacity = 90;
-effects.gradient.colorStart = "brand-background-strong";
-effects.gradient.colorEnd = "accent-background-weak";
 
