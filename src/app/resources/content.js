@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Turning raw data into compelling stories that power smarter decisions, I design intuitive user experiences by day—and build passion projects by night.</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -101,7 +101,7 @@ const about = {
       {
         company: "Cognizant",
         timeframe: "Jan2024 - Jan2025",
-        role: "Data Analyst",
+        role: "Programmer Trainee",
         achievements: [
           <>
             Analyzed and visualized complex datasets using Python, SQL, and Power BI, improving decision-making efficiency by 25%.
