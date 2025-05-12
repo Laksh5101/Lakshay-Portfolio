@@ -38,17 +38,18 @@ const font = {
 };
 
 const style = {
-  theme: "dark",             // Keeps the modern dark mode look
-  neutral: "slate",          // Deep, sleek background and text base
-  brand: "aqua",             // Vibrant and tech-forward primary color
-  accent: "magenta",         // Bold and eye-catching accent color
-  solid: "color",            // Use brand/accent color for solid elements
-  solidStyle: "plastic",     // Adds depth and shine to buttons/cards
-  border: "playful",         // More organic and modern card corners
-  surface: "filled",         // Stronger card backgrounds for better contrast
-  transition: "all",         // Smooth interactions throughout the UI
-  scaling: "105"             // Slightly scaled up for a bolder appearance
+  theme: "dark",             // Keeps focus on vibrant UI elements
+  neutral: "gray",           // Balanced backdrop for high contrast
+  brand: "violet",           // Stylish and popular among dev/creative portfolios
+  accent: "cyan",            // Electric and energetic contrast to violet
+  solid: "color",            // Ensures strong visibility for buttons, UI highlights
+  solidStyle: "plastic",     // Adds depth, polish, and a tech-forward look
+  border: "playful",         // Friendly, modern rounded corners
+  surface: "translucent",    // Keeps cards light and layered on dark themes
+  transition: "all",         // Smooth transitions for modern feel
+  scaling: "110"             // Slight zoom-in for bolder, touch-friendly UX
 };
+
 
 
 const effects = {
@@ -143,3 +144,9 @@ const mailchimp = {
 };
 
 export { routes, protectedRoutes, effects, style, display, mailchimp, baseURL, font };
+
+effects.gradient.display = true;
+effects.gradient.opacity = 90;
+effects.gradient.colorStart = "brand-background-strong";
+effects.gradient.colorEnd = "accent-background-weak";
+
