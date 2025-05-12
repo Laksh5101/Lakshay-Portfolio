@@ -38,17 +38,18 @@ const font = {
 };
 
 const style = {
-  theme: "dark", // theme is not necessary when using ThemeProvider (default)
-  neutral: "gray", // sand | gray | slate
-  brand: "cyan", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-  accent: "red", // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-  solid: "contrast", // color | contrast
-  solidStyle: "flat", // flat | plastic
-  border: "playful", // rounded | playful | conservative
-  surface: "translucent", // filled | translucent
-  transition: "all", // all | micro | macro
-  scaling: "100" // 90 | 95 | 100 | 105 | 110
+  theme: "dark",             // Keeps the modern dark mode look
+  neutral: "slate",          // Deep, sleek background and text base
+  brand: "aqua",             // Vibrant and tech-forward primary color
+  accent: "magenta",         // Bold and eye-catching accent color
+  solid: "color",            // Use brand/accent color for solid elements
+  solidStyle: "plastic",     // Adds depth and shine to buttons/cards
+  border: "playful",         // More organic and modern card corners
+  surface: "filled",         // Stronger card backgrounds for better contrast
+  transition: "all",         // Smooth interactions throughout the UI
+  scaling: "105"             // Slightly scaled up for a bolder appearance
 };
+
 
 const effects = {
   mask: {
