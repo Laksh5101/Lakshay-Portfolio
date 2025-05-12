@@ -147,13 +147,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\3195378.jpg",
+            src: "/images/projects/project-01/cover-02.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\3209957.jpg",
+            src: "/images/projects/project-01/cover-03.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
