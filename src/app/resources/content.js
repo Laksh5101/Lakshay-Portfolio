@@ -143,7 +143,7 @@ const about = {
     skills: [
       {
         title: "Python, Advanced Excel, PowerBi, Advanced Sql",
-        description: <>Skilled in Python, Advanced Excel, Power BI, and SQL for data analysis; experienced with GitHub Actions and project deployment.</>,
+        description: <>Skilled in Python, Advanced Excel, Power BI, and SQL for data analysis, experienced with GitHub Actions and project deployment.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
