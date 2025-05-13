@@ -9,8 +9,8 @@ const person = {
   role: "Data Analyst",
   avatar: "/images/avatar.jpg",
   email: "sahajwanilakshay@gmail.com",
-  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Kolkata",
+  languages: ["English", "Hindi"],
 };
 
 const newsletter = {
@@ -25,8 +25,6 @@ const newsletter = {
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
@@ -63,7 +61,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Lakshay, a Data Analyst at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Lakshay, a Data Analyst at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }} />, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -95,7 +93,7 @@ const about = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
@@ -103,15 +101,10 @@ const about = {
         timeframe: "Jan2024 - Jan2025",
         role: "Programmer Trainee",
         achievements: [
-          <>
-            Analyzed and visualized complex datasets using Python, SQL, and Power BI, improving decision-making efficiency by 25%.
-          </>,
-          <>
-            Automated data pipelines and reporting processes using GitHub Actions, reducing manual effort by 40%.
-          </>,
+          <>Analyzed and visualized complex datasets using Python, SQL, and Power BI, improving decision-making efficiency by 25%.</>,
+          <>Automated data pipelines and reporting processes using GitHub Actions, reducing manual effort by 40%.</>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
@@ -120,11 +113,10 @@ const about = {
           },
         ],
       },
-      
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
@@ -138,36 +130,34 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Technical skills",
     skills: [
       {
-        title: "Python, Advanced Excel, PowerBi, Advanced Sql",
+        title: "Python, Advanced Excel, Power BI, Advanced SQL",
         description: <>Skilled in Python, Advanced Excel, Power BI, and SQL for data analysis, experienced with GitHub Actions and project deployment.</>,
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\powerbi.png",
-            alt: "Project image",
+            src: "/images/skills/powerbi.png",
+            alt: "Power BI",
             width: 16,
             height: 9,
           },
           {
-            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\SQL.png",
-            alt: "Project image",
+            src: "/images/skills/sql.png",
+            alt: "SQL",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "GitHub Actions,",
+        title: "Cloud & Automation",
         description: <>Proficient in cloud platforms (Oracle, Azure), scripting with Python and JupyterLab, and data management using advanced SQL.</>,
-        // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Actions.png",
-            alt: "Project image",
+            src: "/images/skills/github-actions.png",
+            alt: "GitHub Actions",
             width: 16,
             height: 9,
           },
@@ -182,8 +172,6 @@ const blog = {
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
 };
 
 const work = {
@@ -191,8 +179,6 @@ const work = {
   label: "Work",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
-  // All projects will be listed on the /home and /work routes
 };
 
 const gallery = {
@@ -200,8 +186,6 @@ const gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
   images: [
     {
       src: "/images/gallery/horizontal-1.jpg",
@@ -245,8 +229,9 @@ const gallery = {
     },
   ],
 };
+
 const certifications = {
-  display: true, // Set to false to hide this section
+  display: true,
   title: "Certifications",
   items: [
     {
@@ -254,20 +239,18 @@ const certifications = {
       issuer: "Oracle",
       date: "May 2025",
       description: "Demonstrated proficiency in Oracle SQL fundamentals, including data retrieval, manipulation, and table creation using Oracle Database.",
-      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B45031578B9FFF4E864A532BED38CA5A33680C34A9C6970742329BAA0DA44BEF", // Optional: Replace with your badge URL
-      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Professional.png", // Optional: Add an image path if you have a logo
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B45031578B9FFF4E864A532BED38CA5A33680C34A9C6970742329BAA0DA44BEF",
+      image: "/images/certifications/oracle-professional.png",
     },
     {
       name: "Oracle Cloud Infrastructure Foundations Certified Associate",
       issuer: "Oracle",
       date: "April 2025",
       description: "Earned foundational knowledge of Oracle Cloud services, core infrastructure, and pricing models.",
-      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=37D61A09620FACD3FB5D71A5C0D22168463DA42B3A158AC5557F9D017E695B3C", // Optional
-      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Associate.png", // Optional
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=37D61A09620FACD3FB5D71A5C0D22168463DA42B3A158AC5557F9D017E695B3C",
+      image: "/images/certifications/oracle-associate.png",
     },
   ],
 };
 
-
 export { person, social, newsletter, home, about, blog, work, gallery, certifications };
-
