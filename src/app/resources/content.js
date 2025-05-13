@@ -133,7 +133,7 @@ const about = {
       },
       {
         name: "Maharishi Markandeshwar Deemed University",
-        description: <>Masters of Computer Application</>,
+        description: <>Bachelors of Computer Application</>,
       },
     ],
   },
@@ -147,13 +147,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\powerbi.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\SQL.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -161,12 +161,12 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "GitHub Actions,",
+        description: <>Proficient in cloud platforms (Oracle, Azure), scripting with Python and JupyterLab, and data management using advanced SQL.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Actions.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -245,5 +245,28 @@ const gallery = {
     },
   ],
 };
+const certifications = {
+  display: true, // Set to false to hide this section
+  title: "Certifications",
+  items: [
+    {
+      name: "Oracle AI Vector Search Certified Professional",
+      issuer: "Oracle",
+      date: "May 2025",
+      description: "Demonstrated proficiency in Oracle SQL fundamentals, including data retrieval, manipulation, and table creation using Oracle Database.",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B45031578B9FFF4E864A532BED38CA5A33680C34A9C6970742329BAA0DA44BEF", // Optional: Replace with your badge URL
+      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Professional.png", // Optional: Add an image path if you have a logo
+    },
+    {
+      name: "Oracle Cloud Infrastructure Foundations Certified Associate",
+      issuer: "Oracle",
+      date: "April 2025",
+      description: "Earned foundational knowledge of Oracle Cloud services, core infrastructure, and pricing models.",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=37D61A09620FACD3FB5D71A5C0D22168463DA42B3A158AC5557F9D017E695B3C", // Optional
+      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Associate.png", // Optional
+    },
+  ],
+};
+
 
 export { person, social, newsletter, home, about, blog, work, gallery };
