@@ -269,4 +269,5 @@ const certifications = {
 };
 
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, certifications };
+
