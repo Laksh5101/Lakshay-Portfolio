@@ -255,7 +255,7 @@ const certifications = {
       date: "May 2025",
       description: "Demonstrated proficiency in Oracle SQL fundamentals, including data retrieval, manipulation, and table creation using Oracle Database.",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=B45031578B9FFF4E864A532BED38CA5A33680C34A9C6970742329BAA0DA44BEF", // Optional: Replace with your badge URL
-      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Professional.png", // Optional: Add an image path if you have a logo
+      image: "/images/projects/project-01/oracle-professional.png", // Optional: Add an image path if you have a logo
     },
     {
       name: "Oracle Cloud Infrastructure Foundations Certified Associate",
@@ -263,10 +263,11 @@ const certifications = {
       date: "April 2025",
       description: "Earned foundational knowledge of Oracle Cloud services, core infrastructure, and pricing models.",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=37D61A09620FACD3FB5D71A5C0D22168463DA42B3A158AC5557F9D017E695B3C", // Optional
-      image: "D:\portfolio2025\git-clone-https-github.com-once-ui-system-magic-portfolio-1\Oracle Associate.png", // Optional
+      image: "/public/images/projects/project-01/Oracle Associate.png", // Optional
     },
   ],
 };
 
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, newsletter, home, about, blog, work, gallery, certifications };
+
