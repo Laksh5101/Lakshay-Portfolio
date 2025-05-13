@@ -193,6 +193,56 @@ const work = {
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
+  projects: [
+    {
+      title: "Power BI Sales Dashboard",
+      timeframe: "Mar 2024",
+      description:
+        "Built an interactive sales dashboard for a retail client using Power BI, providing insights into sales trends, regional performance, and product categories.",
+      tech: ["Power BI", "Excel", "DAX"],
+      link: "/work/powerbi-sales-dashboard", // Optional
+      images: [
+        {
+          src: "/images/projects/project-02/sales-dashboard.jpg",
+          alt: "Power BI Sales Dashboard",
+          width: 16,
+          height: 9,
+        },
+      ],
+    },
+    {
+      title: "GitHub Actions Automation",
+      timeframe: "Feb 2024",
+      description:
+        "Automated data workflows using GitHub Actions to trigger SQL scripts and update Power BI datasets on a schedule.",
+      tech: ["GitHub Actions", "SQL", "Power BI"],
+      link: "/work/github-actions-automation", // Optional
+      images: [
+        {
+          src: "/images/projects/project-01/Actions.png",
+          alt: "GitHub Actions Workflow",
+          width: 16,
+          height: 9,
+        },
+      ],
+    },
+    {
+      title: "SQL Analysis Project",
+      timeframe: "Jan 2024",
+      description:
+        "Analyzed customer churn data using advanced SQL queries, uncovering key factors and generating performance reports.",
+      tech: ["SQL", "JupyterLab"],
+      link: "/work/sql-churn-analysis", // Optional
+      images: [
+        {
+          src: "/images/projects/project-01/SQL.png",
+          alt: "SQL Analysis",
+          width: 16,
+          height: 9,
+        },
+      ],
+    },
+  ],
 };
 
 const gallery = {
