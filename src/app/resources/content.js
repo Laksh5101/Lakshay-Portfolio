@@ -83,7 +83,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/lakshay-sahajwani-9jxd7r/secret",
   },
   intro: {
     display: true,
@@ -100,7 +100,7 @@ const about = {
     experiences: [
       {
         company: "Cognizant",
-        timeframe: "Jan2024 - Jan2025",
+        timeframe: "Jan 2024 – Jan 2025",
         role: "Programmer Trainee",
         achievements: [
           <>
@@ -129,11 +129,11 @@ const about = {
     institutions: [
       {
         name: "Maharishi Markandeshwar Deemed University",
-        description: <>Masters of Computer Application</>,
+        description: <>Master of Computer Applications (MCA)</>,
       },
       {
         name: "Maharishi Markandeshwar Deemed University",
-        description: <>Bachelors of Computer Application</>,
+        description: <>Bachelors of Computer Application (BCA)</>,
       },
     ],
   },
@@ -142,7 +142,7 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Python, Advanced Excel, PowerBi, Advanced Sql",
+        title: "Python, Excel, Power BI, SQL",
         description: <>Skilled in Python, Advanced Excel, Power BI, and SQL for data analysis,experienced with GitHub Actions and project deployment.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -161,7 +161,7 @@ const about = {
         ],
       },
       {
-        title: "GitHub Actions,",
+        title: "GitHub Actions",
         description: <>Proficient in cloud platforms (Oracle, Azure), scripting with Python and JupyterLab, and data management using advanced SQL.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
