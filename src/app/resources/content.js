@@ -37,16 +37,7 @@ const social = [
     icon: "linkedin",
     link: "https://www.linkedin.com/in/lakshay-sahajwani/",
   },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
-  },
-  {
-    name: "Email",
-    icon: "email",
-    link: `mailto:${person.email}`,
-  },
+
 ];
 
 const home = {
@@ -55,16 +46,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Transforming data into insights by day, building passion projects by night.</>,
-  featured: {
-    display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
+  headline: <>Hi I'm Lakshay Sahajwani Data Analyst</>,
+  
   subline: (
     <>
-      I'm Lakshay, a Data Analyst at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Aspiring Data Analyst skilled in data analysis, SQL, Excel, and data visualization to drive actionable insights.
     </>
   ),
 };
@@ -95,32 +81,36 @@ const about = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
-    title: "Work Experience",
-    experiences: [
-      {
-        company: "Cognizant",
-        timeframe: "Jan 2024 – Jan 2025",
-        role: "Programmer Trainee",
-        achievements: [
-          <>
-            Analyzed and visualized complex datasets using Python, SQL, and Power BI, improving decision-making efficiency by 25%.
-          </>,
-          <>
-            Automated data pipelines and reporting processes using GitHub Actions, reducing manual effort by 40%.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      
+  display: true, // set to false to hide this section
+  title: "Work Experience",
+  experiences: [
+    {
+      company: "Cognizant", // replace with actual client name if needed
+      timeframe: "Jan 2024 – Jan 2025",
+      role: "Graduate Trainee",
+      achievements: [
+
+        <>
+          Managed and maintained critical cloud-based infrastructure, ensuring robust system availability and security.
+        </>,
+        <>
+          Administered Microsoft Active Directory for user authentication, role-based access control, and policy enforcement.
+        </>,
+        <>
+          Monitored and optimized Citrix Director and virtual desktop infrastructure (VDI) to deliver seamless, high-performance remote desktop experiences.
+        </>,
+        <>
+          Collaborated with cross-functional teams to diagnose and resolve complex technical issues, minimizing downtime and improving system reliability.
+        </>,
+        <>
+          Leveraged Microsoft 365 tools to streamline workflows and enhance productivity across the organization.
+        </>,
+        <>
+          Strengthened skills in cloud infrastructure management, security protocols, and enterprise IT operations.
+        </>,
+      ],
+      images: [],
+    },    
     ],
   },
   studies: {
@@ -178,13 +168,16 @@ const about = {
 };
 
 const blog = {
-  path: "/blog",
-  label: "Blog",
+  path: "/certification",
+  label: "Certification",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
+  certifications: [
+  ],
 };
+
 
 const work = {
   path: "/work",
@@ -194,54 +187,6 @@ const work = {
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
   projects: [
-    {
-      title: "Power BI Sales Dashboard",
-      timeframe: "Mar 2024",
-      description:
-        "Built an interactive sales dashboard for a retail client using Power BI, providing insights into sales trends, regional performance, and product categories.",
-      tech: ["Power BI", "Excel", "DAX"],
-      link: "/work/powerbi-sales-dashboard", // Optional
-      images: [
-        {
-          src: "/images/projects/project-02/sales-dashboard.jpg",
-          alt: "Power BI Sales Dashboard",
-          width: 16,
-          height: 9,
-        },
-      ],
-    },
-    {
-      title: "GitHub Actions Automation",
-      timeframe: "Feb 2024",
-      description:
-        "Automated data workflows using GitHub Actions to trigger SQL scripts and update Power BI datasets on a schedule.",
-      tech: ["GitHub Actions", "SQL", "Power BI"],
-      link: "/work/github-actions-automation", // Optional
-      images: [
-        {
-          src: "/images/projects/project-01/Actions.png",
-          alt: "GitHub Actions Workflow",
-          width: 16,
-          height: 9,
-        },
-      ],
-    },
-    {
-      title: "SQL Analysis Project",
-      timeframe: "Jan 2024",
-      description:
-        "Analyzed customer churn data using advanced SQL queries, uncovering key factors and generating performance reports.",
-      tech: ["SQL", "JupyterLab"],
-      link: "/work/sql-churn-analysis", // Optional
-      images: [
-        {
-          src: "/images/projects/project-01/SQL.png",
-          alt: "SQL Analysis",
-          width: 16,
-          height: 9,
-        },
-      ],
-    },
   ],
 };
 
@@ -320,4 +265,3 @@ const certifications = {
 
 
 export { person, social, newsletter, home, about, blog, work, gallery, certifications };
-
