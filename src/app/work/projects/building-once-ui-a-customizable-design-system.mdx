@@ -1,45 +1,43 @@
 ---
-title: "Building Once UI, a Customizable Design System"
-publishedAt: "2024-04-08"
-summary: "Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration."
+title: "Resume analyzer"
+publishedAt: "2024-04-01"
+summary: "Explore the enduring debate between using spaces and tabs for code indentation, and why this choice matters more than you might think."
 images:
-  - "/images/projects/project-01/cover-01.jpg"
-  - "/images/projects/project-01/cover-02.jpg"
-  - "/images/projects/project-01/cover-03.jpg"
-  - "/images/projects/project-01/cover-04.jpg"
+  - "/images/projects/project-01/resume analyzer.jpg"
 team:
   - name: "Selene Yu"
     role: "Software Engineer"
     avatar: "/images/avatar.jpg"
     linkedIn: "https://www.linkedin.com/company/once-ui/"
-  - name: "Jane Smith"
-    role: "Product Manager"
-    avatar: "/images/projects/project-01/avatar-01.jpg"
-    linkedIn: "https://www.linkedin.com/company/once-ui/"
+
 ---
 
 ## Overview
 
-Development of a flexible and highly customizable design system using Next.js for front-end and Figma for design collaboration.
+Developed an interactive Resume Analyzer web application using Streamlit, enabling users to upload resumes and receive skill and keyword extraction insights.
 
-## Key Features
+Key Features
 
-- **Component Library**: Built a set of modular, reusable UI components using React and styled-components in Next.js, focusing on accessibility and responsiveness.
-- **Theming and Customization**: Integrated a theming system that allows easy switching and customization of color palettes, typography, and layout styles using CSS variables and Figma tokens.
-- **Figma Integration**: Collaborated closely with designers by setting up a shared design library in Figma. This library was synchronized with the codebase, ensuring design handoffs were seamless and that design tokens remained consistent across both platforms.
-- **Documentation and Usage Guidelines**: Developed comprehensive documentation with Storybook to showcase components, usage patterns, and best practices, ensuring the design system is easy to adopt by other teams.
+- **Resume Upload**: Supports multiple formats including PDF and DOCX.
+- **Text Extraction**: Extracts text content from uploaded resumes using Python libraries like PyPDF2 and python-docx.
+- **Keyword & Skill Extraction**: Uses natural language processing (NLP) with spaCy and custom dictionaries to identify key skills, experiences, and qualifications.
+- **Visual Insights**: Displays summary statistics and keyword frequency charts for easy resume evaluation.
+- **User-friendly UI**: Built with Streamlit for easy interaction without coding knowledge.
 
 ## Technologies Used
 
-- **Next.js**: For fast, server-rendered React applications.
-- **Figma**: For creating and managing design assets and prototypes.
-- **Styled-Components**: For styling React components with a modular, themable approach.
-- **Storybook**: For building an interactive, documented component library.
+- **Python**: Core language for processing and analysis.
+- **Streamlit**: Framework for building the interactive web interface.
+- **NLP**: spaCy and Regex for text parsing and keyword extraction.
+- **File Handling**: PyPDF2 and python-docx for resume text extraction.
 
 ## Challenges and Learnings
 
-One key challenge was balancing the need for flexibility with the desire to maintain design consistency. The solution involved creating well-defined design tokens and establishing clear guidelines for when and how components could be customized. Additionally, setting up effective collaboration workflows between designers and developers using Figma and Git was a learning experience that greatly improved the process.
+- Learned how to handle various file formats and extract text consistently.
+- Implemented efficient keyword matching and text processing for resume analysis.
+- Improved skills in building simple, interactive web apps with Streamlit.
 
 ## Outcome
 
-The design system is now actively used across multiple projects, leading to faster development cycles, fewer design inconsistencies, and improved collaboration between design and development teams. It has become a foundation for scaling our products efficiently while ensuring a cohesive user experience.
+- Delivered a functional web app that provides immediate, actionable feedback on resumes.
+- Useful tool for job seekers to optimize resumes and for recruiters to screen candidates quickly.
